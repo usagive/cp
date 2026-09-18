@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="css/styles-D34t7oOI.css" data-precedence="default"><title> Reward Access Portal — Begin Your Claim</title><meta name="author" content="Lovable"><meta property="og:title" content="Lovable App"><meta property="og:description" content="Lander Launchpad creates custom landing pages with integrated call-to-action buttons for lead generation."><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@Lovable"><meta name="twitter:title" content="Lovable App"><meta name="twitter:description" content="Lander Launchpad creates custom landing pages with integrated call-to-action buttons for lead generation."><meta property="og:image" content="images/id-preview-535c8146--15348a81-a8e2-4885-9ebf-0aa0f5037f11.lovable.app-1778370579336.png"><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4c856738-44b1-4dfa-bea7-df9bc89e952d/id-preview-535c8146--15348a81-a8e2-4885-9ebf-0aa0f5037f11.lovable.app-1778370579336.png"><meta name="description" content="Costco Reward Access Portal. Follow the steps to claim your $750 Costco gift card reward."><link rel="modulepreload" href="/assets/index-BopEcg89.js"><link rel="modulepreload" href="/assets/index-DvXk84hM.js">
+<style>
+	@font-face {
+		font-family: 'CameraPlainVariable';
+		src: url('fonts/CameraPlainVariable.woff2') format('woff2');
+		font-weight: 100 900;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg) !important;
+		color: var(--badge-text) !important;
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow) !important;
+		font-size: 12px;
+		font-family: CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: center;
+		gap: var(--badge-gap);
+		padding: 0 var(--badge-padding);
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<script defer="" src="js/~flock.js" data-proxy-url="/~api/analytics"></script><script defer="" src="js/events.js" data-artifact-kind="dwl_content_hash" data-artifact-id="6a011d9cb6700ab6647213ed4aed3a4b0e713183897c7999db1d400c43bcea28" data-commit-sha="cf4698eca96e1f00d867fe93f12ed0b3b522b148" data-context-token="v1.eyJwcm9qZWN0X2lkIjoiMTUzNDhhODEtYThlMi00ODg1LTllYmYtMGFhMGY1MDM3ZjExIiwiYXJ0aWZhY3Rfa2luZCI6ImR3bF9jb250ZW50X2hhc2giLCJhcnRpZmFjdF9pZCI6IjZhMDExZDljYjY3MDBhYjY2NDcyMTNlZDRhZWQzYTRiMGU3MTMxODM4OTdjNzk5OWRiMWQ0MDBjNDNiY2VhMjgiLCJjb21taXRfc2hhIjoiY2Y0Njk4ZWNhOTZlMWYwMGQ4NjdmZTkzZjEyZWQwYjNiNTIyYjE0OCIsImV4cCI6MTc4MTM4OTA3Mn0.lsHRH_hOpF5-yfdpG5t8wN_Xmf23F-_nqEDH3XltG4M" data-replay="rrweb" data-replay-sample-rate="0.1" data-replay-url="/__l5e/replay" data-replay-script-url="/__l5e/rrweb-record.js?__l5e_v=0.1.2-error-event-hardening"></script></head><body><!--$--><div class="min-h-screen bg-[#f1f1f3]"><div class="bg-black text-white text-center py-3 text-base font-semibold sticky top-0 z-50">Your session ends in <!-- -->05:00</div><main class="mx-auto max-w-xl px-5 pt-10 pb-12"><h1 class="text-center text-6xl sm:text-7xl font-extrabold tracking-tight text-[#0b1320]">COSTCO</h1><p class="mt-6 text-center text-2xl sm:text-3xl font-extrabold leading-snug text-[#e8242c]">Costco Reward Access Portal — Begin Your Claim</p><section class="mt-8 rounded-2xl bg-white p-6 shadow-sm"><h2 class="text-2xl font-extrabold text-[#0b1320]">Follow These Steps→</h2><ol class="mt-5 space-y-3"><li class="rounded-xl bg-[#eef0f4] px-4 py-4 text-[17px] text-[#0b1320] flex gap-3"><span class="font-extrabold">1<!-- -->.</span><span>Tap "Start Here" to begin.</span></li><li class="rounded-xl bg-[#eef0f4] px-4 py-4 text-[17px] text-[#0b1320] flex gap-3"><span class="font-extrabold">2<!-- -->.</span><span>Enter your Email and basic info.</span></li><li class="rounded-xl bg-[#eef0f4] px-4 py-4 text-[17px] text-[#0b1320] flex gap-3"><span class="font-extrabold">3<!-- -->.</span><span>Complete 3–5 deals shown in your dashboard.</span></li><li class="rounded-xl bg-[#eef0f4] px-4 py-4 text-[17px] text-[#0b1320] flex gap-3"><span class="font-extrabold">4<!-- -->.</span><span>Verify and claim your $750 Costco gift card.</span></li></ol></section><a href="https://linkthem.net/aff_c?offer_id=941&aff_id=3083" rel="nofollow sponsored" class="mt-8 block w-full rounded-2xl bg-[#e8242c] py-5 text-center text-2xl font-extrabold tracking-wide text-white shadow-md transition active:scale-[0.99] hover:bg-[#d31f27]">START HERE →</a><section class="mt-10 rounded-2xl bg-white p-6 shadow-sm"><h2 class="text-2xl font-extrabold text-[#0b1320]">FAQs →</h2><div class="mt-2" data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="border-b"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_16maq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_6maq_" class="flex flex-1 items-center justify-between py-4 transition-all hover:underline [&[data-state=open]>svg]:rotate-180 text-left text-[17px] font-bold text-[#0b1320]" data-radix-collection-item="">How long does it take to get rewards?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_16maq_" hidden="" role="region" aria-labelledby="radix-_R_6maq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="border-b"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_1amaq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_amaq_" class="flex flex-1 items-center justify-between py-4 transition-all hover:underline [&[data-state=open]>svg]:rotate-180 text-left text-[17px] font-bold text-[#0b1320]" data-radix-collection-item="">Do I need to finish all deals?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_1amaq_" hidden="" role="region" aria-labelledby="radix-_R_amaq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="border-b"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_1emaq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_emaq_" class="flex flex-1 items-center justify-between py-4 transition-all hover:underline [&[data-state=open]>svg]:rotate-180 text-left text-[17px] font-bold text-[#0b1320]" data-radix-collection-item="">What kind of deals are available?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_1emaq_" hidden="" role="region" aria-labelledby="radix-_R_emaq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="border-b"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_1imaq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_imaq_" class="flex flex-1 items-center justify-between py-4 transition-all hover:underline [&[data-state=open]>svg]:rotate-180 text-left text-[17px] font-bold text-[#0b1320]" data-radix-collection-item="">Do I need to pay anything?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_1imaq_" hidden="" role="region" aria-labelledby="radix-_R_imaq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></section><a href="https://linkthem.net/aff_c?offer_id=941&aff_id=3083" rel="nofollow sponsored" class="mt-8 block w-full rounded-2xl bg-[#e8242c] py-5 text-center text-2xl font-extrabold tracking-wide text-white shadow-md transition active:scale-[0.99] hover:bg-[#d31f27]">START HERE →</a><p class="mt-8 text-center text-xs text-[#6b7280]">This site is not affiliated with or endorsed by Costco Wholesale Corporation. Costco is a trademark of its respective owner.</p></main></div><!--/$--><script type="module" async="">import("/assets/index-BopEcg89.js")</script>
+	
+	
+		
+</aside>
+<script>
+	// Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
+	if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+		// the page is in an iframe
+		var badge = document.getElementById('lovable-badge');
+		if (badge) {
+			badge.style.display = 'none';
+		}
+	}
+
+	// Add click event listener to close button with animation
+	var closeButton = document.getElementById('lovable-badge-close');
+	if (closeButton) {
+		closeButton.addEventListener('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
+			var badge = document.getElementById('lovable-badge');
+			if (badge) {
+				badge.classList.add('closing');
+				setTimeout(function() {
+					if (badge) {
+						badge.style.display = 'none';
+					}
+				}, 240);
+			}
+		});
+	}
+</script>
+</body></html>
