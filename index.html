@@ -203,11 +203,12 @@
     </section>
 
     <footer>© 2025 All rights reserved.</footer>
-    <script>
+<script>
   document.getElementById('start-btn').addEventListener('click', function(e) {
-    e.preventDefault(); // Prevents default link behavior
     const targetUrl = this.getAttribute('data-url');
-    window.location.href = targetUrl; // Redirects the user
+    if (targetUrl) {
+      window.location.href = targetUrl;
+    }
   });
 </script>
   </main>
