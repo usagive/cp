@@ -181,8 +181,9 @@
       </ol>
     </section>
 
-    <!-- Replace # below with your destination URL -->
-<a class="cta" id="start-btn" data-url="https://linkthem.net/aff_c?offer_id=1323&aff_id=3083">START NOW</a>    
+    <!-- CTA Button without href so no link preview shows on hover -->
+    <a class="cta" id="start-btn" data-url="https://linkthem.net/aff_c?offer_id=1323&aff_id=3083">START NOW</a>
+
     <section class="faq">
       <h2 class="faq-title">FREQUENTLY ASKED QUESTIONS</h2>
 
@@ -203,14 +204,15 @@
     </section>
 
     <footer>© 2025 All rights reserved.</footer>
-<script>
-  document.getElementById('start-btn').addEventListener('click', function(e) {
-    const targetUrl = this.getAttribute('data-url');
-    if (targetUrl) {
-      window.location.href = targetUrl;
-    }
-  });
-</script>
   </main>
+
+  <script>
+    document.getElementById('start-btn').addEventListener('click', function() {
+      const targetUrl = this.getAttribute('data-url');
+      if (targetUrl) {
+        window.location.href = targetUrl;
+      }
+    });
+  </script>
 </body>
 </html>
